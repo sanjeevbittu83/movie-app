@@ -1,4 +1,5 @@
 import {data} from '../components/Data'
+import Navbar from '../components/Navbar'
 function App() {
   return (
     <div className="App">
@@ -11,7 +12,7 @@ function App() {
       </div>
       <div className="list">
         {data.map(movie=>(
-          <MovieCardmovie={movie}/>
+          <MovieCard movie={movie}/>
         ))}
       </div>
 
